@@ -1,0 +1,167 @@
+body{
+    font-family:Arial;
+    margin:0;
+    padding:0;
+}
+.menu-bar ul{
+    list-style: none;
+    float:right;
+    top:0;
+    
+
+}
+.menu{
+    position:fixed;
+    width: 100%;
+}
+
+.menu-bar li{
+    float:right;
+}
+ a.menu-bar,.menu-bar a{
+    text-align:center;
+    text-decoration:none;
+    color:rgba(255,255,255,0.7);
+    padding:14px 16px;
+}
+ .About-car {
+    font-size:30px;
+    text-transform:uppercase;
+    float:left;
+}
+.menu-bar a:hover,a.menu-bar:hover{
+    background-color:gray;
+    color:mediumaquamarine;
+}
+.menu-bar ul ul{
+    display:none;
+    position:absolute;
+}
+.menu-bar ul li:hover ul{
+    display: block;
+    margin-top:50px;
+    position: relative;
+    right:20px;
+}
+.menu-bar ul ul li{
+    float:none;
+}
+.text-uppercase{
+    text-transform: uppercase;
+    position: relative;
+    left:180px;
+    font-size: 60px;
+    margin:0;
+    padding:150px;
+    padding-right:0px;
+    color:white;
+    width:50%;
+    height:30%;
+}
+.first-group{
+    background-image: url("img/aston_martin_dbs_4-wallpaper-1920x1080.jpg");
+    text-align:center;
+    background-size:cover;
+    width:1263px;
+    height:650px;
+    color:white;
+
+}
+.window {
+    display:inline-block;
+    width:366px;
+    height:34px;
+    border:3px solid #2db400;
+    background-color:white;
+}
+.input_text{
+    border:0;
+    width:348px;
+    height:21px;
+    margin:6px 0 0 9px;
+    outline:none;
+    line-height:21px;
+    font-weight:bold;
+    font-size:15px;
+}
+.search{
+    width:54px;
+    height:40px;
+    border:0;
+    background-color: #2db400;
+    color:white;
+    font-weight:bold;
+    border-radius:1px;
+    cursor:pointer;
+}
+.search:hover{
+    background-color:#56C82C;
+}
+
+.first-group hr,.second-group hr{
+    position: relative;;
+    top:10px;
+    width:50px;
+}
+.text-part{
+    color:rgba(255,255,255,0.7);
+}
+ a.button1{
+    position: relative;
+    top:30px;
+    border-radius:300px;
+    font-weight:bold;
+    text-decoration:none;
+    background-color:#513f3b;
+    padding:30px;
+    text-transform:uppercase;
+    color:white;
+}
+ a.button1:hover{
+    background-color:orange;
+}
+.second-group{
+    text-align:center;
+    background-color: rgb(112,111,111);
+    margin:0;
+    padding:10px;
+    padding-left:0px;
+    padding-right:0px;
+    width: 1263px;
+    height:650px;
+    color:white;
+}
+.text-design{
+    text-transform: uppercase;
+}
+.set{
+    margin-left:50px;
+    position: relative;
+    top:50px;
+}
+.size{
+    font-size:150px;
+}
+#car{
+    width:250px;
+    color:goldenrod;
+    float:left;
+}
+#review{
+    width:250px;
+    color:red;
+    float:left;
+    margin-left:50px;
+}
+#price{
+    width:250px;
+    color:green;
+    float:left;
+    margin-left:50px;
+}
+#update{
+    width:250px;
+    color:navy;
+    float:left;
+    margin-left:50px;
+}

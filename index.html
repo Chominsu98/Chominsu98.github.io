@@ -6,7 +6,159 @@
         <link href="./1차웹프 플젝.css" rel="stylesheet" type="text/css"> 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script>
+                $(document).ready(function(){
+                    $("#toggle").click(function(){
+                        $("#car").toggle(1000);
+                        $("#review").toggle(1000);
+                        $("#price").toggle(1000);
+                        $("#update").toggle(1000);
+                    });
+                });
+                $(document).ready(function(){
+                    $("#slide").click(function(){
+                        $("#car").slideToggle('slow');
+                        $("#review").slideToggle('slow');
+                        $("#price").slideToggle('slow');
+                        $("#update").slideToggle('slow');
+                    });
+                });
+                $(document).ready(function(){
+                    $("#ani_car").click(function(){
+                        var div = $("#car");  
+                        div.animate({left: '100px'}, "slow");
+                        div.animate({fontSize: '3em'}, "slow");
+                 });   
+                });
+                $(document).ready(function(){
+                    $("#ani_rev").click(function(){
+                        var div = $("#review");  
+                        div.animate({left: '100px'}, "slow");
+                        div.animate({fontSize: '3em'}, "slow");
+                 });   
+                });
+                $(document).ready(function(){
+                    $("#ani_price").click(function(){
+                        var div = $("#price");  
+                        div.animate({left: '100px'}, "slow");
+                        div.animate({fontSize: '3em'}, "slow");
+                 });   
+                });
+                $(document).ready(function(){
+                    $("#ani_update").click(function(){
+                        var div = $("#update");  
+                        div.animate({left: '100px'}, "slow");
+                        div.animate({fontSize: '3em'}, "slow");
+                 });   
+                });
+
+        </script>
     </head>
+    <script language=javascript>
+        function showPopup(x) { window.open(x, "a", "width=600, height=500, left=100, top=50"); }
+
+        function check_search()
+        {
+           var input_value=document.Chk.keyword.value
+           if (input_value=="bmw")
+               document.location.href="./bmw시리즈.html";
+           else if (input_value=="BMW-1-Series 5door"||input_value=="bmw1시리즈")
+               {
+                   document.location.href="./bmw시리즈.html#1series";
+                   showPopup('show_1.html')
+               }
+           else if (input_value=="BMW-2-Series-Active Tourer"||input_value=="bmw2시리즈")
+               {
+                   document.location.href="./bmw시리즈.html#2series";
+                   showPopup('show_2.html')
+               }
+           else if (input_value=="BMW-3-Series-Sedan"||input_value=="bmw3시리즈")
+               {
+                   document.location.href="./bmw시리즈.html#3series";
+                   showPopup('show_3.html')
+               }
+           else if (input_value=="BMW-4-Series-Coupe"||input_value=="bmw4시리즈")
+               {
+                   document.location.href="./bmw시리즈.html#4series";
+                   showPopup('show_4.html')
+               }      
+           else if (input_value=="BMW-5-Series-Sedan"||input_value=="bmw5시리즈")
+               {
+                   document.location.href="./bmw시리즈.html#5series";
+                   showPopup('show_5.html')
+               }                
+           else if (input_value=="BMW-6-Series-Sedan"||input_value=="bmw6시리즈")
+               {
+                   document.location.href="./bmw시리즈.html#6series";
+                   showPopup('show_6.html')
+               }  
+           else if (input_value=="BMW-7-Series-Sedan"||input_value=="bmw7시리즈")
+               {
+                   document.location.href="./bmw시리즈.html#7series";
+                   showPopup('show_7.html')
+               }
+           else if (input_value=="BMW-X3"||input_value=="bmw x3")
+               {
+                   document.location.href="./bmw시리즈.html#x3";
+                   showPopup('show_8.html')
+               }
+           else if (input_value=="BMW-X4"||input_value=="bmw x4")
+               {
+                   document.location.href="./bmw시리즈.html#x4";
+                   showPopup('show_9.html')
+               }
+           else if (input_value=="BMW-X5"||input_value=="bmw x5")
+               {
+                   document.location.href="./bmw시리즈.html#x5";
+                   showPopup('show_10.html')
+               }
+           else if (input_value=="BMW-X6"||input_value=="bmw x6")
+               {
+                   document.location.href="./bmw시리즈.html#x6";
+                   showPopup('show_11.html')
+               }
+           else if (input_value=="BMW M2-coupe"||input_value=="bmw m2")
+               {
+                   document.location.href="./bmw시리즈.html#m2";
+                   showPopup('show_12.html')
+               }
+           else if (input_value=="BMW M3-Sedan"||input_value=="bmw m3")
+               {
+                   document.location.href="./bmw시리즈.html#m3";
+                   showPopup('show_13.html')
+               }
+           else if (input_value=="BMW M4-coupe"||input_value=="bmw m4")
+               {
+                   document.location.href="./bmw시리즈.html#m4";
+                   showPopup('show_14.html')
+               }
+           else if (input_value=="BMW M5-Sedan"||input_value=="bmw m5")
+               {
+                   document.location.href="./bmw시리즈.html#m5";
+                   showPopup('show_15.html')
+               }
+           else if (input_value=="BMW X6-M"||input_value=="bmw x6m")
+               {
+                   document.location.href="./bmw시리즈.html#x6m";
+                   showPopup('show_16.html')
+               }
+           else if (input_value=="i3"||input_value=="bmw i3")
+               {
+                   document.location.href="./bmw시리즈.html#i3";
+                   showPopup('show_17.html')
+               }                      
+           else if (input_value=="i8"||input_value=="bmw i8")
+               {
+                   document.location.href="./bmw시리즈.html#i8";
+                   showPopup('show_18.html')
+               }                                                                                                                                                                                                                                                        
+           else
+              alert("해당 검색어의 차량은 저희 사이트에 준비되어 있지 않습니다.추후 업데이트에 노력하겠습니다.")
+        }
+        
+    </script>
+    
     <meta charset="UTF-8">
     <body id="page-top">
         <div class="first-group">
@@ -49,13 +201,15 @@
         
             <header>
                 <div>
-                    <h1 class="text-uppercase">
+                    <h1 class="text-uppercase" id="title">
                         <strong>Welcome to<br> About-car.com!</strong>
                     </h1>
                     <span class="window">
-                        <input type='text' class="input_text" value="원하시는 차종을 찾아보세요.">
+                        <form name="Chk">
+                            <input type='text' class="input_text" value="원하시는 차종을 찾아보세요.ex)bmw3시리즈" name="keyword">
+                        </form>
                     </span>
-                    <button type="submit" class="search">검색</button>
+                    <button type="submit" class="search" onclick="check_search()">검색</button>
                     <hr>
                 </div>
                 <div class="text-part">
@@ -71,7 +225,7 @@
                 <h1 class="text-design">Introduction</h1>
             </div>
             <hr>
-            <div class="set">
+            <div class="set" id="set">
                 <div id="car">
                     <i class="fa fa-car size"></i>
                     <h2 class="text-design">Brands</h3>
@@ -92,6 +246,26 @@
                     <h2 class="text-design">Information-update</h2>
                     <p><span style="color:white">지속적으로 차에 대한 정보가 업데이트 되어집니다!</span></p>
                 </div>
+            </div>
+            <div>
+                <a id="toggle"class="various-effect">토글</a>
+                <br>
+                <br>
+                <a id="slide"class="various-effect" >슬라이드</a>
+                <br>
+                <br>
+                <a id="ani_car"class="various-effect" >확대1</a>
+                <br>
+                <br>
+                <a id="ani_rev"class="various-effect" >확대2</a>
+                <br>
+                <br>
+                <a id="ani_price"class="various-effect" >확대3</a>
+                <br>
+                <br>
+                <a id="ani_update"class="various-effect" >확대4</a>
+                <br>
+                <br>
             </div>
         </div>
 </body>

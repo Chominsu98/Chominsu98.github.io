@@ -70,7 +70,7 @@ body{
     background-image: url("img/aston_martin_dbs_4-wallpaper-1920x1080.jpg");
     text-align:center;
     background-size:cover;
-    width:1263px;
+    width:auto;
     height:650px;
     color:white;
 
@@ -128,6 +128,20 @@ body{
  a.button1:hover{
     background-color:orange;
 }
+.various-effect{
+    
+    padding-top:100px;
+    padding:5px;
+    border-radius:100px;
+    font-weight:bold;
+    text-decoration:none;
+    background-color:#513f3b;
+    text-transform:uppercase;
+    color:white;
+}
+ .various-effect:hover{
+    background-color:orange;
+}
 .second-group{
     font-family: 'Nanum Myeongjo',Arial, Helvetica, sans-serif;
     text-align:center;
@@ -136,7 +150,7 @@ body{
     padding:10px;
     padding-left:0px;
     padding-right:0px;
-    width: 1263px;
+    width: auto;
     height:650px;
     color:white;
 }
